@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pro"
+        android:icon="@drawable/profileinmenu"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_table"
+        android:icon="@drawable/timetableinmenu"
+        android:title=""/>
+    <item
+        android:id="@+id/navigation_calen"
+        android:icon="@drawable/cerenderinmenu"
+        android:title=""/>
+    <item
+        android:id="@+id/navigation_set"
+        android:icon="@drawable/settinginmenu"
+        android:title=""/>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/profile3"
+        android:title="โปรไฟล์"
+        android:icon="@drawable/profile_menu"/>
+
+    <item
+        android:id="@+id/edit_profile"
+        android:title="แก้ไขโปรไฟล์" />
+
+</menu>

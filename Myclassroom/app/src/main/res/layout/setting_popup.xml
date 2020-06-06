@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="คุณต้องการ"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="รีเซ็ตตารางทั้งหมด ?"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ยกเลิก"
+            android:background="@color/white"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="@color/colorGray"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="2dp"
+            android:text="ตกลง"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

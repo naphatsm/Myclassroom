@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/headBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorBlack">
+
+        <TextView
+            android:id="@+id/headNameBar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:hint="Schedule"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/addData"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="360dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/colorBlack"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/editNametable"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/colorBlack"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/edit" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="54dp"
+            android:layout_height="25dp"
+            android:background="@color/colorGray" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="จ."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="อ."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="พ."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="พฤ."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="ศ."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="ส."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:gravity="top|center"
+            android:text="อา."
+            android:textColor="@color/white"
+            android:background="@color/colorGray"/>
+
+    </LinearLayout>
+    <AbsoluteLayout
+        android:id="@+id/ablayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:background="@color/colorBlack">
+
+        <TextView
+            android:id="@+id/No1"
+            android:layout_width="54dp"
+            android:layout_height="61dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="09.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No9"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="61dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="10.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No17"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="116dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="11.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No25"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="172dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="12.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No33"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="228dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="13.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No41"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="283dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="14.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No49"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="339dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="15.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/No50"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_x="0dp"
+            android:layout_y="394dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="16.00"
+            android:textColor="@color/white" />
+
+    </AbsoluteLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/headBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="607dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconSize="@dimen/dimens"
+        app:itemIconTint="@color/colorBlack"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottomnavigation" />
+
+</RelativeLayout>

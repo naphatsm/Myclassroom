@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="dimens">41dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="thumbnail">12dp</dimen>
+</resources>
